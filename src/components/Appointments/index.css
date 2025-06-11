@@ -1,0 +1,103 @@
+* {
+  font-family: roboto;
+}
+
+.main {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 50px;
+  width: 80%;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.inner-innner-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.first-div {
+  width: 40%;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  border: 0px solid;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+
+.appointments-container-flex-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+label {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+input {
+  outline: none;
+  width: 80%;
+  padding: 5px 8px;
+  margin-bottom: 12px;
+}
+
+img {
+  height: 270px;
+  width: 360px;
+}
+
+.not-starred-button {
+  background-color: transparent;
+  border: 1px solid #9796f0;
+  border-radius: 8px;
+  color: #9796f0;
+}
+
+.starred-button {
+  background-color: #9796f0;
+  border: 1px solid #9796f0;
+  border-radius: 8px;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  img {
+    height: 150px;
+    width: 200px;
+  }
+  .inner-container {
+    padding: 10px 16px;
+  }
+}

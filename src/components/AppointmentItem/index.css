@@ -1,0 +1,40 @@
+.first-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-button {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.star-image {
+  height: 22px;
+  width: 22px;
+}
+
+li {
+  width: 30%;
+  border: 1px solid black;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+.appointment-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  li {
+    width: 100%;
+  }
+}
